@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="qrcoder.jnlp">
+  <information>
+    <title>qrcoder</title>
+    <vendor>roots</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="lib\bridj-0.6.2-windows-only.jar" size="595177" download="eager" />
+    <jar href="lib\core-3.3.0.jar" size="541078" download="eager" />
+    <jar href="lib\javase-3.3.0.jar" size="41451" download="eager" />
+    <jar href="lib\log4j-1.2.17.jar" size="489884" download="eager" />
+    <jar href="lib\qrgen-1.2.jar" size="5245" download="eager" />
+    <jar href="lib\slf4j-api-1.6.2.jar" size="25689" download="eager" />
+    <jar href="lib\slf4j-log4j12-1.6.2.jar" size="9752" download="eager" />
+    <jar href="lib\tools-1.8.0.jar" size="2156" download="eager" />
+    <jar href="lib\webcam-capture-0.3.12.jar" size="428314" download="eager" />
+    <jar href="lib\zxing-core-1.7.jar" size="352719" download="eager" />
+    <jar href="lib\zxing-j2se-1.7.jar" size="22051" download="eager" />
+    <jar href="qrcoder.jar" size="7190" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="qrcoder" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="QRcodeReader.Qrcoder"  name="qrcoder" />
+  <update check="always"/>
+</jnlp>
